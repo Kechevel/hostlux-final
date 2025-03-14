@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    
+</head>
+<body>
+    <!-- header start -->
+    <header class="header md:border-opacity-10 bg-darkBlue">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="branding">
+                    <img src="img/logo.png" alt="" class="w-40">
+                    <div class="md:flex md:gap-6 md:spacex">
+                        <ul class="header__navd">
+                            <li><a href="home.html">Home <i class="fa-solid fa-chevron-down"></i></a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Domain</a></li>
+                            <li><a href="#">Hosting <i class="fa-solid fa-chevron-down"></i></a></li>
+                            <li><a href="#">Page <i class="fa-solid fa-chevron-down"></i></a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="header__btn hidden md:block">
+                            <div class="header__search md:flex md:gap-4 md:items-center"> <a href="" class="opacity-50"><i class="fa-solid fa-search"></i></a>
+                                <a href="#" class="flex gap-2 items-center border-l-2 border-light-500/50 pl-5">
+                                    <img src="./img/country_thumb01.png" alt=""> English<i class="fa-solid fa-chevron-down text-[12px]"></i>
+                                </a>
+                                <div class=" md:flex-row md:gap-4">
+                                    <a href="" class="btn-1"><i class="fa-solid fa-user-plus"></i> Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__action">
+                    <ul class="header__navm">
+                        <li><a href="home.html"><span>Home</span><span>+</span></a></li>
+                        <li><a href="home.html">About</a></li>
+                        <li><a href="home.html">Domain</a></li>
+                        <li><a href="home.html"><span>Hosting</span><span>+</span></a></li>
+                        <li><a href="home.html"><span>Page</span><span>+</span></a></li>
+                        <li><a href="home.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="burger__menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <div class="banner relative md:p">
+        <img src="./img/banner.jpg" alt="" class="h-[85rem]  object-cover w-full md:h-full">
+        <div class="absolute top-[10%]  md:top-[5%] md:mx-[10%]">
+            <div class="container space-y-6">
+                <div class="banner__wrapper  md:flex md:flex-row md:items-center md:gap-25">
+                    <div class="">
+                        <div class="banner__text space-y-4">
+                            <h4 class="bg-blue/10 backdrop-invert backdrop-opacity-2 p-2 md:text-[16px]"><i class="fa-solid fa-check"></i>Best Performance Guaranteed!</h4>
+                            <h1>Easy and Managed Application Website Hosting Service</h1>
+                            <p>Conveniently grow superior architectures without magnetic e-markets web host Uniquely whiteboard low high-yield opportunities done.</p>
+                        </div>
+                        <div class="banner__items text-light grid grid-row-3 items-center pt-6 space-y-4 md:space-x-8 md:flex ">
+                            <a href="#" class="btn-1">Get Started</a>
+                            <div>
+                                <img src="/dist/img/truspilot-logo.png" alt="#">
+                            </div>
+                            <div>
+                                <p class="font-semibold text-[18px] md:border-l-[2px] md:border-light/25 md:border-opacity-10 pl-3">4.7 Out of 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./img/hero-thumb.png" alt="" class="">
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    <!-- hero end -->
+
+
+    <!-- card start -->
+    <div class="card bg-bglight md:top-[50px] ">
+        <div class="container relative  ">
+            <div class="card__wrapper grid grid-rows-4 gap-6 md:grid-cols-4 md:grid-rows-none md:mx-[7%]">
+                <div class="card__items  bg-light py-10 px-8 group ">
+                    <img src="./img/feature-icon_01.png" alt="" class="mb-5 group-hover:animate-bounce ">
+                    <h3>Safe and Secured</h3>
+                </div>
+                <div class="card__items bg-light py-10 px-8 group ">
+                    <img src="./img/feature-icon_02.png" alt="" class="mb-5 group-hover:animate-bounce">
+                    <h3>99.90% Uptime</h3>
+                </div>
+                <div class="card__items bg-light py-10 px-8 group ">
+                    <img src="./img/feature-icon_03.png" alt="" class="mb-5 group-hover:animate-bounce">
+                    <h3>Automatic Update</h3>
+                </div>
+                <div class="card__items bg-light py-10 px-8 group ">
+                    <img src="./img/feature-icon_04.png" alt="" class="mb-5 group-hover:animate-bounce">
+                    <h3>Speed Guarantee</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card end -->
+
+    <!-- plans start -->
+     <div class=" plans bg-[url('/dist/img/pricing-bg.jpg')] pb-[90px]">
+        <div class="container">
+            <h2 class="text-dblueText md:text-[40px] md:font-bold">Get the More Powerful with Hostez <br> Website Hosting Plans</h2>
+            <div class="plans__wrapper space-y-6 md:grid md:grid-cols-4 md:space-x-4 md:mx-[7%]">
+                <div data-aos="fade-up">
+                <div class="plans__items group">
+                    <div class="plans__description">
+                    <img src="./img/pricing-icon-01.png" alt="" class="group-hover:animate-bounce">
+                    <h4><sup><i class="fa-solid fa-dollar-sign"></i></sup> <span>67.20 </span> / Mo</h4>
+                    <h3>Wordpress Hosting</h3>
+                    <p>Continually optimize web host</p>
+                    </div>
+                    <div class="plans__description__bottom">
+                        <a href="#" class="btn-2 mt-8 mb-8">Get Started <i class="fa-solid fa-arrow-up" ></i></a>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 10 MySQL Database</li>
+                            <li><i class="fa-solid fa-check"></i> 6GB SSD Storage</li>
+                            <li><i class="fa-solid fa-check"></i> Money back Guarantee</li>
+                            <li><i class="fa-solid fa-check"></i> Automatic Backup System</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div data-aos="fade-up">
+                <div class="plans__items group">
+                    <div class="plans__description">
+                    <img src="./img/pricing-icon-02.png" alt="" class="group-hover:animate-bounce">
+                    <h4><sup><i class="fa-solid fa-dollar-sign"></i></sup> <span>76.20 </span>/ Mo</h4>
+                    <h3>Dedicated Hosting</h3>
+                    <p>Continually optimize web host</p>
+                    </div>
+                    <div class="plans__description__bottom">
+                        <a href="#" class="btn-2 mt-8 mb-8">Get Started <i class="fa-solid fa-arrow-up" ></i></a>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 10 MySQL Database</li>
+                            <li><i class="fa-solid fa-check"></i> 6GB SSD Storage</li>
+                            <li><i class="fa-solid fa-check"></i> Money back Guarantee</li>
+                            <li><i class="fa-solid fa-check"></i> Automatic Backup System</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div data-aos="fade-up">
+                <div class="plans__items group">
+                    <div class="plans__description">
+                    <img src="./img/pricing-icon-03.png" alt="" class="group-hover:animate-bounce">
+                    <h4><sup "><i class="fa-solid fa-dollar-sign"></i></sup><span> 87.20</span> / Mo</h4>
+                    <h3>VPS Hosting</h3>
+                    <p>Continually optimize web host</p>
+                    </div>
+                    <div class="plans__description__bottom">
+                        <a href="#" class="btn-2 mt-8 mb-8">Get Started <i class="fa-solid fa-arrow-up" ></i></a>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 10 MySQL Database</li>
+                            <li><i class="fa-solid fa-check"></i> 6GB SSD Storage</li>
+                            <li><i class="fa-solid fa-check"></i> Money back Guarantee</li>
+                            <li><i class="fa-solid fa-check"></i> Automatic Backup System</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div data-aos="fade-up">
+                <div class="plans__items group">
+                    <div class="plans__description">
+                    <img src="./img/pricing-icon-04.png" alt="" class="group-hover:animate-bounce">
+                    <h4><sup><i class="fa-solid fa-dollar-sign"></i></sup><span> 67.20</span>  </span>/ Mo</h4>
+                    <h3>Joomla Hosting</h3>
+                    <p>Continually optimize web host</p>
+                    </div>
+                    <div class="plans__description__bottom">
+                        <a href="#" class="btn-2 mt-8 mb-8">Get Started <i class="fa-solid fa-arrow-up"></i></a>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 10 MySQL Database</li>
+                            <li><i class="fa-solid fa-check"></i> 6GB SSD Storage</li>
+                            <li><i class="fa-solid fa-check"></i> Money back Guarantee</li>
+                            <li><i class="fa-solid fa-check"></i> Automatic Backup System</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- plans end -->
+
+    <!-- about start -->
+     <div class="about">
+        <div class="container pt-[90px] md:pt-[40px] md:pb-[90px]">
+            <div class="about__wrapper ">
+                <div class="about__item md:flex md:flex-row md:gap-25 md:mx-[7%] md:items-center">
+                    <div data-aos="fade-up">
+                    <img src="./img/about-thumb.png" alt="" class="md:w-full">
+                    </div>  
+                    <div data-aos="fade-up">
+                    <h2>We're Most Powerful and Best
+                        <br> Hosting Solution Agency</h2>
+                    <div class="about__list">
+                        <div>
+                            <img src="./img/about_icon.png" alt="">
+                        </div>
+                        <p>Proactively scale functionalized initiatives with emerging ideas.</p>
+                    </div>
+                    <div class="about__list">
+                        <div>
+                            <img src="./img/about_icon2.png" alt="">
+                        </div>
+                        <p>Collaboratively formulate principle-centered users and revolutionary human capital. Progressively evolve.</p>
+                    </div>
+                    <div class="about__list">
+                        <div>
+                            <img src="./img/about_icon.png" alt="">
+                        </div>
+                        <p>Dramatically pursue cooperative materials vis-a-vis flexible technology. Credibly fashion turnkey internal hosting done.</p>
+                    </div>
+                    <div class="md:flex md:flex-row md:space-x-5">
+                        <div class="about__stats group ">
+                            <h3>85% <i class="fa-solid fa-arrow-up"></i></h3>
+                            <p>Customers Websites protects By Hostlux Server</p>
+                        </div>
+                        <div class="about__stats group">
+                            <h3>TM+ <i class="fa-solid fa-arrow-up"></i></h3>
+                            <p>Customers Websites protects By Hostlux Server</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            </div>
+        </div>
+     </div>
+    <!-- about end -->
+
+    <!-- category start -->
+     <div class="category bg-[url('/dist/img/category.jpg')] py-[100px]">
+        <div class="container">
+            <div class="category__wrapper space-y-7 ">
+                <h2 class="md:text-[40px]">More than 100+ Apps & Integrations</h2>
+                <div class=" space-y-4 md:flex md:space-x-5 md:justify-center md:mx-[7%]">
+                        <div data-aos="fade-up">
+                        <div class="category__items group">
+                            <img src="./img/category-icon01.png" alt="">
+                            <h3>Wordpress Hosting</h3>
+                        </div>
+                        </div>
+                        <div data-aos="fade-up">
+                        <div class="category__items group">
+                            <img src="./img/category-icon02.png" alt="">
+                            <h3>Joomla Hosting</h3>
+                        </div>
+                        </div>
+                        <div data-aos="fade-up">
+                        <div class="category__items group">
+                            <img src="./img/category-icon03.png" alt="">
+                            <h3>Durpal Hosting</h3>
+                        </div>
+                        </div>
+                        <div data-aos="fade-up">
+                        <div class="category__items group">
+                            <img src="./img/category-icon04.png" alt="">
+                            <h3>Mobile Hosting</h3>
+                        </div>
+                        </div>
+                        
+                        </div>
+                        <div class=" space-y-4 md:flex md:space-x-5 md:justify-center">
+                            <div data-aos="fade-up">
+                                <div class="category__items group">
+                                    <img src="./img/category-icon05.png" alt="">
+                                    <h3>Ace Net Hosting</h3>
+                                </div>
+                                </div>
+                                <div data-aos="fade-up">
+                                <div class="category__items group">
+                                    <img src="./img/category-icon06.png" alt="">
+                                    <h3>Pro Link Hosting</h3>
+                                </div>
+                                </div>
+                                <div data-aos="fade-up">
+                                <div class="category__items group">
+                                    <img src="./img/category-icon07.png" alt="">
+                                    <h3>WebZen Hosting</h3>
+                                </div>
+                                </div>
+                                </div>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+    <!-- category end -->
+
+    <!-- features start -->
+     <div class="feature bg-bglight py-20">
+        <div class="container">
+            <div data-aos="fade-up">
+                <div class="feature__wrapper">
+                    <h2 class="text-dblueText md:text-[40px]">Hostlux Powerful Features</h2>
+                    <p class="md:px-[30rem]">Collaboratively formulate principle-centered users and revolutionary human capital. Progressively evolve domain and hosting.</p>
+                </div>
+                <div class="feature__cards space-y-8 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-x-8 md:mx-[7%]">
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon01.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>Maximum Performance</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon02.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>Powerful Security</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon01.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>Moneyback Guarantee</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon04.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>Speed Optimization</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon05.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>FTP Supported</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="feature__item group"> 
+                            <div>
+                                <img src="./img/feature-icon06.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="feature__item__content">
+                                <h3>Free Supports 24/7</h3>
+                                <p>Collaboratively formulate principle-centered capital. Progressively evolve users and it's revolutionary human.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- features end -->
+
+    <!-- contact start -->
+     <div class="contact bg-[url('/dist/img/proved-bg.jpg')] pt-[110px] pb-[120px] bg-cover bg-no-repeat md:pt-[34px] md:pb-[42px] ">
+        <div class="container md:p-0 md:h-[523px]">
+            <div class="contact__wrapper md:flex md:mx-[7%] md:items-center md:h-[523px] md:gap-25">
+                <div data-aos="fade-up">
+                    <div class="contact__text">
+                        <div class=" mb-[43px]">
+                            <h2>Migrating Hosting Another 
+                                <br>Hosting Server's</h2>
+                            <p>Collaboratively formulate principle-centered users and revolutionary human capital. Progressively evolve domain and hosting pursue parallel platforms with inexpensive expertise completely</p>
+                            </div>
+                            <a href="" class="btn-1 !px-[13px] !py-[13px]">Contact with Us</a>
+                        </div>
+                    </div>
+                <div data-aos="fade-up">
+                    <img src="./img/proved-thumb.png" alt="" class="md:max-w-[508px] ">
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- contact end -->
+
+    <!-- testimony start -->
+     <div class="testimony bg-[url('/dist/img/testi_bg.jpg')] pt-[110px] pb-[40px]">
+        <div class="container">
+            <div class="testimony__wrapper md:mx-[7%]">
+                <div class="md:flex md:justify-between gap-140">
+                    <div data-aos="fade-up">
+                        <div class="testimony__text">
+                            <h2>What Saying Customer's</h2>
+                            <p>Collaboratively formulate principle-centered users and revolutionary human capital. Progressively evolve domain and hosting.</p>
+                        </div>
+                        </div>
+                        <div data-aos="fade-up">
+                        <div class="mb-[40px]">
+                            <img src="./img/rating_thumb.png" alt="" class="md:max-w-[151px]">
+                        </div>
+                        </div>
+                </div>
+                
+                <div data-aos="fade-up">
+                <div class="testimony__card">
+                    <div class="testimony__card__items">
+                        <div class="testi__author">
+                            <img src="./img/testi_author1.png" alt="">
+                            <h4>James Velazquez</h4>
+                            <h5>CEO Founder</h5>
+                        </div>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly dissemins diverse methods empowerment whereas strategic theme areas.</p>
+                        <div class="testi__brand">
+                            <img src="./img/testi-brand1.png" alt="">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="testimony__card__items">
+                        <div class="testi__author">
+                            <img src="./img/testi_author1.png" alt="">
+                            <h4>James Velazquez</h4>
+                            <h5>CEO Founder</h5>
+                        </div>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly dissemins diverse methods empowerment whereas strategic theme areas.</p>
+                        <div class="testi__brand">
+                            <img src="./img/testi-brand1.png" alt="">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="testimony__card__items">
+                        <div class="testi__author">
+                            <img src="./img/testi_author1.png" alt="">
+                            <h4>James Velazquez</h4>
+                            <h5>CEO Founder</h5>
+                        </div>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly dissemins diverse methods empowerment whereas strategic theme areas.</p>
+                        <div class="testi__brand">
+                            <img src="./img/testi-brand1.png" alt="">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="testimony__card__items">
+                        <div class="testi__author">
+                            <img src="./img/testi_author1.png" alt="">
+                            <h4>James Velazquez</h4>
+                            <h5>CEO Founder</h5>
+                        </div>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly dissemins diverse methods empowerment whereas strategic theme areas.</p>
+                        <div class="testi__brand">
+                            <img src="./img/testi-brand1.png" alt="">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- testimony end -->
+
+    <!-- FAQ start -->
+     <div class="faq pt-[110px] pb-[120px]">
+        <div class="container">
+            <div class="faq__wrapper mb-[60px] md:flex md:gap-10 md:mx-[7%]">
+                <img src="./img/faq-tumb.png" alt="">
+                <div>
+                    <div class="faq__text">
+                        <h2>Get Started Fast & Easily <br>
+                        with Best Hosting</h2>
+                        <p>Collaboratively formulate principle-centered users and revolutionary human new capital. Progressively evolve domain and hosting service.</p>
+                    </div>
+                    <div class="faq__menu">
+                        <a href="javascript:void(0)"><span>How to Install WP Theme on a Hosting cPanel?</span> <span>+</span></a>
+                        <div class="faq__action">
+                                <p>Collaboratively formulate principle-centered users and capital then evolve domain recaptiualize front-end results via viral vortals. Compellingly envisioneer front-end results world-class e-</p>
+                        </div>
+                    </div>
+                    <div class="faq__menu">
+                        <a href="javascript:void(0)"><span>What are the Best Hosting Server - 2025?</span> <span>+</span></a>
+                        <div class="faq__action">
+                                <p>Collaboratively formulate principle-centered users and capital then evolve domain recaptiualize front-end results via viral vortals. Compellingly envisioneer front-end results world-class e-</p>
+                        </div>
+                    </div>
+                    <div class="faq__menu">
+                        <a href="javascript:void(0)"><span>How to Transfer Hosting from Server?</span> <span>+</span></a>
+                        <div class="faq__action" >
+                                <p>Collaboratively formulate principle-centered users and capital then evolve domain recaptiualize front-end results via viral vortals. Compellingly envisioneer front-end results world-class e-</p>
+                        </div>
+                    </div>
+                    <a href="" class="btn-1">Get Started Now</a>
+                </div>
+                </div>
+        </div>
+     </div>
+    <!-- FAQ end -->
+
+    <!-- blog start-->
+     <div class="blog bg-bglight">
+        <div class="container">
+            <div class="blog__card md:flex md:gap-5 md:justify-center">
+                <div class="blog__card__item relative">
+                        <img src="./img/blog_thumb01.png" alt="">
+                        <div class="blog__tag">
+                            <ul class="btn-1">
+                                <li><i class="fa-regular fa-calendar-check"></i> 25 July, 2025</li>
+                                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+                            </ul>
+                        </div>
+                    <div class="blog__text">
+                        <a href=""><span>How to Install Hosting at WP Hosting Server?</span></a>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly</p>
+
+                        <a href="" class="blog__read">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="blog__card__item relative">
+                        <img src="./img/blog_thumb01.png" alt="">
+                        <div class="blog__tag">
+                            <ul class="btn-1">
+                                <li><i class="fa-regular fa-calendar-check"></i> 25 July, 2025</li>
+                                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+                            </ul>
+                        </div>
+                    <div class="blog__text">
+                        <a href=""><span>How to Install Hosting at WP Hosting Server?</span></a>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly</p>
+
+                        <a href="" class="blog__read">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="blog__card__item relative">
+                        <img src="./img/blog_thumb01.png" alt="">
+                        <div class="blog__tag">
+                            <ul class="btn-1">
+                                <li><i class="fa-regular fa-calendar-check"></i> 25 July, 2025</li>
+                                <li><i class="fa-regular fa-comment"></i> 0 Comments</li>
+                            </ul>
+                        </div>
+                    <div class="blog__text">
+                        <a href=""><span>How to Install Hosting at WP Hosting Server?</span></a>
+                        <p>Appropriately maintain installed base board sustainable product. Compellingly</p>
+
+                        <a href="" class="blog__read">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- blog end-->
+
+
+    <!-- logo start -->
+     <div class="logo">
+        <div class="container pb-10">
+            <div class="logo__card  md:mx-[25%]">
+                <div class="logo__item">
+                    <div class="brand__thumb">
+                        <img src="./img/brand_01.png" alt="">
+                    </div>
+                </div>
+                <div class="logo__item">
+                    <div class="brand__thumb">
+                        <img src="./img/brand_02.png" alt="">
+                    </div>
+                </div>
+                <div class="logo__item">
+                    <div class="brand__thumb">
+                        <img src="./img/brand_03.png" alt="">
+                    </div>
+                </div>
+                <div class="logo__item">
+                    <div class="brand__thumb">
+                        <img src="./img/brand_04.png" alt="">
+                    </div>
+                </div>
+                <div class="logo__item">
+                    <div class="brand__thumb">
+                        <img src="./img/brand_05.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- logo end -->
+
+    <!-- footer start -->
+     <div class="footer bg-[url('/dist/img/footer_bg.jpg')] bg-no-repeat  bg-cover ">
+        <div class="container">
+            <div class="footer__wrapper
+              md:mx-[7%] pt-10">
+                <div class="footer__grid space-y-8 md:grid md:grid-cols-[2fr_1fr_1fr_2fr] md:space-x-6">
+                    <div class="footer__links space-y-4">
+                        <img src="./img/logo.png" alt="">
+                        <p class="w-[400px]">Collaboratively formulate principle-centered users capital. Progressively evolve domain and hosting cultivate revolutionary</p>
+                        <h3><span class="text-primary font-bold">—</span> Follow Us On</h3>
+                        <ul class="footer__brands flex space-x-2">
+                            <li><a href=""><i class="fa-brands fa-facebook-f btn-3"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-x-twitter btn-3 !px-[9px]"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in btn-3"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram btn-3"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__links ">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Support Center</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Domain Search</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> My Account</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Support Center</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Domain Search</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> My Account</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__blog space-y-4">
+                        <h4>Latest Blog</h4>
+                        <p class="text-[16px] text-light/50">Subscribe Our Newsletter</p>
+                        <form action="" class="py-5.5 px-4 justify-between">
+                            <input type="email" placeholder="Enter Your Email" size="30">
+                            <a href="" class="btn-1 ">Subscribe</a>
+                        </form>
+                        <div class="footer__payment">
+                            <h6>Payment Gateway</h6>
+                            <div class="flex space-x-4 pt-4">
+                            <a href=""><img src="./img/pyment-logo1.png" alt="" class="py-[5px]"></a>
+                            <a href=""><img src="./img/pyment-logo2.png" alt=""></a>
+                            <a href=""><img src="./img/pyment-logo3.png" alt="" class="py-[2px]"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom mt-16 py-4 text-center">
+                    <p>Copyright 2025 Host LuxAll Rights Reserved</p>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+    <!-- footer end -->
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <script type="module">
+        var slider =tns({
+            container: ".testimony__card",
+            items: 1,
+            slideBy:"page",
+            autoplay: true,
+            autoplayText: [" ", " "],
+            controls: false,
+            controlsText: ["<", ">"],
+            loop: false,
+            navPosition: "bottom",
+            axis: "horizontal",
+            responsive:{
+                    "1024":{
+                        "items": 3,
+                    }  
+                }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <script type="module">
+        var slider =tns({
+            container: ".logo__card",
+            items: 1,
+            gutter: 50,
+            slideBy:"page",
+            autoplay: true,
+            autoplayText: [" ", " "],
+            controls: false,
+            controlsText: ["<", ">"],
+            loop: true,
+            nav: false,
+            navPosition: "bottom",
+            axis: "horizontal",
+            mouseDrag: true,
+            responsive:{
+                    "1024":{
+                        "items": 4
+                    }  
+                }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+</body>
+</html>
